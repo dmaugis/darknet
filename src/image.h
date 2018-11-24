@@ -61,6 +61,8 @@ void copy_image_into(image src, image dest);
 
 image get_image_layer(image m, int l);
 
+image ndarray_to_image(unsigned char* src, long* shape, long* strides);
+
 #ifdef __cplusplus
 }
 #endif
